@@ -19,14 +19,17 @@ a:hover{
 	color: black;
 	text-decoration: underline;
 }
-li a{
-	width: 60px;
-}
 button{
 	position: relative;
 	top: 137px;
 	left: 0;
 	right: 0;	
+}
+.sign_in{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0;
+	margin-left: 0;
 }
 .grid{
 	display: inline-block;
