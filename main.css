@@ -22,6 +22,12 @@ a:hover{
 li a{
 	width: 60px;
 }
+button{
+	position: relative;
+	top: 137px;
+	left: 0;
+	right: 0;	
+}
 .footer{
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
@@ -32,6 +38,44 @@ li a{
 	left: 0;
 	right: 0;
 	position: absolute;
+}
+#button_search{
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	min-width: 54px;
+	height: 36px;
+	line-height: 27px;
+	font-weight: bold;
+	border-style: none;
+	border: 1px #f2f2f2;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #757575;
+}
+#button_search:hover{
+	color: #222;
+	border: 1px solid #c6c6c6;	
+}
+#button_lucky{
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	min-width: 54px;
+	height: 36px;
+	line-height: 27px;
+	font-weight: bold;
+	border-style: none;
+	border: 1px #f2f2f2;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #757575;
+}
+#button_lucky:hover{
+	color: #222;
+	border: 1px solid #c6c6c6;
 }
 #header{
 	font-family: arial,sans-serif;
@@ -68,9 +112,6 @@ li a{
 	height: 24px;
 	width: 21px;
 	vertical-align: middle;
-}
-.search:hover{
-	border-color: black;
 }
 #search{
 	background-image: url('https://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png');
